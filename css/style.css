@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Variables*/
+/*Mixin*/
+/*header*/
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+.header h1 {
+  color: white;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+/*Navbar*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Main*/
+/*Home*/
+.inicio h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flexbox;
+  justify-content: left;
+}
+.inicio img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100% -10;
+  height: 100% -10;
+}
+
+/*Cultivamos pensando en tu bienestar*/
+.lista {
+  display: flex;
+}
+.lista p :hover {
+  transform: scale(1.5);
+}
+
+/*Carrousel*/
+.carousel {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 33.3333333333%;
+}
+
+/*Contact*/
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  background-color: green;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer a {
+  justify-items: center;
+}
+
+.contacto {
+  font-size: 20px;
+  color: black;
+}
+.contacto :hover {
+  text-decoration: white;
+  transform: scale(2);
+  transition: 1s;
+}
+
+/*# sourceMappingURL=style.css.map */

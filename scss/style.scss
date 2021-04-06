@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Variables*/
+
+$colorp: green;
+$colors: white;
+$bg-index: yellow;
+$ancho: 100%;
+$alto: 100%;
+
+/*Mixin*/
+
+@mixin flex {
+    display: flex;
+    justify-content:center;
+    align-items: center
+    
+}
+
+/*header*/
+
+.header {
+    @include flex();
+    background-color: $colorp;
+    h1 {
+        color: $colors;
+        font-size: 50px;
+        margin: 0 auto;
+        
+    }
+}
+
+/*Navbar*/
+.navbar {
+    @include flex()
+
+}
+
+ /*Main*/
+
+ /*Home*/
+
+.inicio {  
+    h2 {
+        @include flex();
+        display: flexbox;
+        justify-content: left;
+    }
+        img {
+            @include flex();
+            width: $ancho -10;
+            height: $alto -10;
+        }
+}
+
+
+ /*Cultivamos pensando en tu bienestar*/
+
+ .lista {
+    display: flex;
+        p {
+            & :hover {
+                transform: scale(1.5);
+            }
+        }
+ }
+
+
+ /*Carrousel*/
+
+ .carousel {
+     display: flex;
+     justify-content: center;
+     width: $ancho /2;
+     height: $alto /3;     
+ }
+
+ /*Contact*/
+
+ .mapa {
+     @include flex();
+ }
+
+ /*Footer*/
+.footer {
+    display: flex;
+    background-color: $colorp;
+    justify-content:space-around;
+    align-items: center;
+        a {
+            justify-items: center;
+        } 
+        }
+
+
+.contacto{
+    font-size:  20px;
+    color: black;
+        & :hover {
+            text-decoration:$colors;
+            transform:scale(2);
+            transition: 1s;
+
+    }
+
+    }
