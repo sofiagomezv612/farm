@@ -81,6 +81,12 @@ $alto: 100%;
      height: $alto /3;     
  }
 
+ /*video*/@at-root
+ 
+ .video {
+     @include flex();
+ }
+
  /*Contact*/
 
  .mapa {
@@ -90,7 +96,6 @@ $alto: 100%;
  /*Footer*/
 .footer {
     display: flex;
-    background-color: $colorp;
     justify-content:space-around;
     align-items: center;
         a {

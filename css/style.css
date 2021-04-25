@@ -69,7 +69,7 @@
 /*Footer*/
 .footer {
   display: flex;
-  background-color: green;
+  background-color: black;
   justify-content: space-around;
   align-items: center;
 }
