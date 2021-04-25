@@ -75,9 +75,25 @@ $alto: 100%;
  /*Carrousel*/
 
  .carousel {
+
      display: flex;
-     justify-content:space-around;
-             
+     width: auto;
+     height: auto;
+     @media screen {
+         max-width: 480px;
+         justify-content: center;
+     }
+     @media screen {
+        max-width: 728x;
+        max-height: $alto;
+        justify-content: center;
+    }
+    @media screen {
+        max-width: 900px;
+        max-height: 400px;
+        justify-content:center;
+    }
+
  }
 
  /*video*/@at-root
