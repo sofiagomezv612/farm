@@ -33,7 +33,6 @@
   justify-content: center;
   align-items: center;
   display: flexbox;
-  justify-content: left;
 }
 .inicio img {
   display: flex;
@@ -72,7 +71,7 @@
 }
 @media screen {
   .carousel {
-    max-width: 900px;
+    max-width: 1024px;
     max-height: 400px;
     justify-content: center;
   }

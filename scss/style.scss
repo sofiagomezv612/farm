@@ -50,7 +50,7 @@ $alto: 100%;
     h2 {
         @include flex();
         display: flexbox;
-        justify-content: left;
+        
     }
         img {
             @include flex();
@@ -61,6 +61,7 @@ $alto: 100%;
 
 
  /*Cultivamos pensando en tu bienestar*/
+
 
  .lista {
     display: flex;
@@ -89,7 +90,7 @@ $alto: 100%;
         justify-content: center;
     }
     @media screen {
-        max-width: 900px;
+        max-width: 1024px;
         max-height: 400px;
         justify-content:center;
     }
