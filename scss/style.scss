@@ -76,9 +76,8 @@ $alto: 100%;
 
  .carousel {
      display: flex;
-     justify-content: center;
-     width: $ancho /2;
-     height: $alto /3;     
+     justify-content:space-around;
+             
  }
 
  /*video*/@at-root

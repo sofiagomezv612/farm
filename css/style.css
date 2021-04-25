@@ -54,9 +54,14 @@
 /*Carrousel*/
 .carousel {
   display: flex;
+  justify-content: space-around;
+}
+
+/*video*/
+.video {
+  display: flex;
   justify-content: center;
-  width: 50%;
-  height: 33.3333333333%;
+  align-items: center;
 }
 
 /*Contact*/
@@ -69,7 +74,6 @@
 /*Footer*/
 .footer {
   display: flex;
-  background-color: black;
   justify-content: space-around;
   align-items: center;
 }
